@@ -5,7 +5,8 @@
     <classes>
       <class name="selenideTests.FirstTest">
         <methods>
-          <include name="userCanSearch"/>
+          <include name="userCanSearch" invocation-numbers="0 1"/>
+          <include name="setup"/>
         </methods>
       </class> <!-- selenideTests.FirstTest -->
     </classes>
